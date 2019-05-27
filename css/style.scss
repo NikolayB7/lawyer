@@ -1,3 +1,9 @@
+.responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 header{
     position: absolute;
     right: 0;
@@ -23,5 +29,8 @@ nav{
     height: 670px;
     width: 100%;
     background-image: url(/img/background.png);
+    display: flex;
+    align-items: flex-end;
+
 }
 

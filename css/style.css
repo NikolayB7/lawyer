@@ -1,3 +1,9 @@
+.responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 header {
   position: absolute;
   right: 0;
@@ -31,5 +37,11 @@ nav {
   height: 670px;
   width: 100%;
   background-image: url(/img/background.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 /*# sourceMappingURL=style.css.map */
